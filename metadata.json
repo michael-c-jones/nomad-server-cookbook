@@ -1,0 +1,13 @@
+{
+  "name": "nomad-server",
+  "version": "0.0.1",
+  "maintainer": "devops",
+  "description": "Installs/Configures a nomad server",
+  "long_description": "Installs/Configures a nomad server",
+  "dependencies": {
+    "cron": ">= 0.0.0",
+    "nomad": ">= 0.0.0",
+    "iptables": ">= 0.0.0",
+    "chef_nginx": ">= 0.0.0"
+  }
+}

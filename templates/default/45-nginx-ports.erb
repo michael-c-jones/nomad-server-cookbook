@@ -1,0 +1,2 @@
+-A FWR -p tcp --dport <%= node['nomad-server']['api-port'] -%> -j ACCEPT
+-A FWR -p tcp --dport <%= node['nomad-server']['oauth']['listen-port'] -%> -j ACCEPT
